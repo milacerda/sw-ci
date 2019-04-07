@@ -1,27 +1,23 @@
-# sw
+## Star Wars - Front
+## Angular 7
+## Nebular Theme
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
+ ## Instruções
 
-## Development server
+- Alterar o arquivo: src -> app -> app.config.ts. Alterar a variável 'URL_BASE_REST' com a url da API.
+- Para rodar localmente:
+    -   Por linha de comando, ir até a pasta do projeto e rodar o código:
+            1. npm install
+            2. ng serve -o
+- Para gerar a versão para produção:
+    - Ir até: src -> index.html, e alterar a tag '<base href="{url do seu servidor}">'
+    - Por linha de comando, ir até a pasta do projeto e rodar o código:
+        1. ng build
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+*******************
+Testes
+*******************
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. Por linha de comando, vá até a pasta do projeto e digite o comando ng test
+2. Na raíz do projeto, será gerada uma pasta "coverage". Dentro desta pasta, abra o arquivo index.html para analisar os resultados.
