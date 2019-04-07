@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CodeIgniter Application Test Suite" tests="14" assertions="10" errors="6" failures="4" skipped="0" time="0.632248">
+    <testsuite name="Api_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php" tests="8" assertions="2" errors="6" failures="0" skipped="0" time="0.313820">
+      <testcase name="test_index" class="Api_test" classname="Api_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php" line="13" assertions="0" time="0.100051">
+        <error type="RuntimeException">Api_test::test_index
+RuntimeException: Cannot modify header information - headers already sent by (output started at phar://C:/php/phpunit.phar/phpunit/Util/Printer.php:112) on line 16 in file C:\Program Files\Ampps\www\sw-ci\application\controllers\Api.php
+
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php:169
+C:\Program Files\Ampps\www\sw-ci\application\controllers\Api.php:16
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:343
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:297
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:160
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php:144
+C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php:15
+</error>
+      </testcase>
+      <testcase name="test_search" class="Api_test" classname="Api_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php" line="22" assertions="0" time="0.032981">
+        <error type="RuntimeException">Api_test::test_search
+RuntimeException: Cannot modify header information - headers already sent by (output started at phar://C:/php/phpunit.phar/phpunit/Util/Printer.php:112) on line 16 in file C:\Program Files\Ampps\www\sw-ci\application\controllers\Api.php
+
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php:169
+C:\Program Files\Ampps\www\sw-ci\application\controllers\Api.php:16
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:343
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:297
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:160
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php:144
+C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php:24
+</error>
+      </testcase>
+      <testcase name="test_store" class="Api_test" classname="Api_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php" line="31" assertions="0" time="0.033654">
+        <error type="RuntimeException">Api_test::test_store
+RuntimeException: Cannot modify header information - headers already sent by (output started at phar://C:/php/phpunit.phar/phpunit/Util/Printer.php:112) on line 16 in file C:\Program Files\Ampps\www\sw-ci\application\controllers\Api.php
+
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php:169
+C:\Program Files\Ampps\www\sw-ci\application\controllers\Api.php:16
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:343
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:297
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:160
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php:144
+C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php:34
+</error>
+      </testcase>
+      <testcase name="test_getMovies" class="Api_test" classname="Api_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php" line="45" assertions="0" time="0.033006">
+        <error type="RuntimeException">Api_test::test_getMovies
+RuntimeException: Cannot modify header information - headers already sent by (output started at phar://C:/php/phpunit.phar/phpunit/Util/Printer.php:112) on line 16 in file C:\Program Files\Ampps\www\sw-ci\application\controllers\Api.php
+
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php:169
+C:\Program Files\Ampps\www\sw-ci\application\controllers\Api.php:16
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:343
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:297
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:160
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php:144
+C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php:47
+</error>
+      </testcase>
+      <testcase name="test_update" class="Api_test" classname="Api_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php" line="54" assertions="0" time="0.032124">
+        <error type="RuntimeException">Api_test::test_update
+RuntimeException: Cannot modify header information - headers already sent by (output started at phar://C:/php/phpunit.phar/phpunit/Util/Printer.php:112) on line 16 in file C:\Program Files\Ampps\www\sw-ci\application\controllers\Api.php
+
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php:169
+C:\Program Files\Ampps\www\sw-ci\application\controllers\Api.php:16
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:343
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:297
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:160
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php:144
+C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php:57
+</error>
+      </testcase>
+      <testcase name="test_delete" class="Api_test" classname="Api_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php" line="68" assertions="0" time="0.033987">
+        <error type="RuntimeException">Api_test::test_delete
+RuntimeException: Cannot modify header information - headers already sent by (output started at phar://C:/php/phpunit.phar/phpunit/Util/Printer.php:112) on line 16 in file C:\Program Files\Ampps\www\sw-ci\application\controllers\Api.php
+
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php:169
+C:\Program Files\Ampps\www\sw-ci\application\controllers\Api.php:16
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:343
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:297
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php:160
+C:\Program Files\Ampps\www\sw-ci\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php:144
+C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php:70
+</error>
+      </testcase>
+      <testcase name="test_method_404" class="Api_test" classname="Api_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php" line="78" assertions="1" time="0.039018"/>
+      <testcase name="test_APPPATH" class="Api_test" classname="Api_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\controllers\Api_test.php" line="84" assertions="1" time="0.009000"/>
+    </testsuite>
+    <testsuite name="Planets_model_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\models\Planets_model_test.php" tests="6" assertions="8" errors="0" failures="4" skipped="0" time="0.318428">
+      <testcase name="test_getPlanet" class="Planets_model_test" classname="Planets_model_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\models\Planets_model_test.php" line="12" assertions="1" time="0.038000">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">Planets_model_test::test_getPlanet
+Failed asserting that null is of type "array".
+
+C:\Program Files\Ampps\www\sw-ci\application\tests\models\Planets_model_test.php:17
+</failure>
+      </testcase>
+      <testcase name="test_getPlanetByName" class="Planets_model_test" classname="Planets_model_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\models\Planets_model_test.php" line="34" assertions="2" time="0.037002">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">Planets_model_test::test_getPlanetByName
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+-    0 =&gt; 'id'
+-    1 =&gt; 'nome'
+-    2 =&gt; 'clima'
+-    3 =&gt; 'terreno'
+-    4 =&gt; 'filmes'
+-    5 =&gt; 'created_at'
+-    6 =&gt; 'updated_at'
+
+C:\Program Files\Ampps\www\sw-ci\application\tests\models\Planets_model_test.php:53
+</failure>
+      </testcase>
+      <testcase name="test_getAllPlanets" class="Planets_model_test" classname="Planets_model_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\models\Planets_model_test.php" line="56" assertions="2" time="0.035001"/>
+      <testcase name="test_newPlanet" class="Planets_model_test" classname="Planets_model_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\models\Planets_model_test.php" line="63" assertions="1" time="0.137411">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">Planets_model_test::test_newPlanet
+Failed asserting that null is of type "array".
+
+C:\Program Files\Ampps\www\sw-ci\application\tests\models\Planets_model_test.php:72
+</failure>
+        <system-out>
+A PHP Error was encountered
+
+Severity:    Notice
+Message:     Undefined variable: id
+Filename:    C:\Program Files\Ampps\www\sw-ci\application\models\Planets_model.php
+Line Number: 40
+
+Backtrace:
+	File: C:\Program Files\Ampps\www\sw-ci\application\models\Planets_model.php
+	Line: 40
+	Function: _error_handler
+
+	File: C:\Program Files\Ampps\www\sw-ci\application\tests\models\Planets_model_test.php
+	Line: 71
+	Function: newPlanet
+
+	File: phar://C:/php/phpunit.phar/phpunit/Framework/TestCase.php
+	Line: 1071
+	Function: invokeArgs
+
+	File: phar://C:/php/phpunit.phar/phpunit/Framework/TestCase.php
+	Line: 939
+	Function: runTest
+
+	File: phar://C:/php/phpunit.phar/phpunit/Framework/TestResult.php
+	Line: 698
+	Function: runBare
+
+	File: phar://C:/php/phpunit.phar/phpunit/Framework/TestCase.php
+	Line: 894
+	Function: run
+
+	File: phar://C:/php/phpunit.phar/phpunit/Framework/TestSuite.php
+	Line: 755
+	Function: run
+
+	File: phar://C:/php/phpunit.phar/phpunit/Framework/TestSuite.php
+	Line: 755
+	Function: run
+
+	File: phar://C:/php/phpunit.phar/phpunit/TextUI/TestRunner.php
+	Line: 545
+	Function: run
+
+	File: phar://C:/php/phpunit.phar/phpunit/TextUI/Command.php
+	Line: 195
+	Function: doRun
+
+	File: phar://C:/php/phpunit.phar/phpunit/TextUI/Command.php
+	Line: 148
+	Function: run
+
+	File: C:\php\phpunit.phar
+	Line: 570
+	Function: main
+
+
+</system-out>
+      </testcase>
+      <testcase name="test_updatePlanet" class="Planets_model_test" classname="Planets_model_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\models\Planets_model_test.php" line="76" assertions="1" time="0.037001">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">Planets_model_test::test_updatePlanet
+Failed asserting that null is of type "array".
+
+C:\Program Files\Ampps\www\sw-ci\application\tests\models\Planets_model_test.php:86
+</failure>
+      </testcase>
+      <testcase name="test_deletePlanet" class="Planets_model_test" classname="Planets_model_test" file="C:\Program Files\Ampps\www\sw-ci\application\tests\models\Planets_model_test.php" line="90" assertions="1" time="0.034013"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

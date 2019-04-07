@@ -1,0 +1,30 @@
+a.ng2-smart-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    font-size: 2rem !important;
+    color: #a1a1e5;
+      &:hover{
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+.nb-trash, .nb-edit{
+    font-family: nebular;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.delete:hover{
+    color: #ff386a;
+}
+.edit:hover{
+    color: #00d977;
+}

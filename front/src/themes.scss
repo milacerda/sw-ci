@@ -1,0 +1,31 @@
+@import '~@nebular/theme/styles/theming';
+@import '~@nebular/theme/styles/themes/cosmic';
+@import '~bootstrap/scss/mixins/breakpoints';
+@import '~@nebular/theme/styles/global/breakpoints';
+
+  $color-primary: #7659ff;
+  $color-success: #00d977;
+  $color-info: #0088ff;
+  $color-warning: #ffa100;
+  $color-danger: #ff386a;
+  $shadow-green: #00977e;
+
+  .value {
+    font-size: 3rem;
+    font-weight: nb-theme(font-weight-light);
+    margin-top: 0.5rem;
+  }
+
+  .input-danger {
+    border-color: #ff4c6a;
+  }
+
+  .btn-primary {
+    background-color: $color-primary !important;
+    border-color: $color-primary!important;
+    &:hover, &:disabled{
+      background-color: $color-primary!important;
+      border-color: $color-primary!important;
+      opacity: 0.6!important;
+    }
+  }

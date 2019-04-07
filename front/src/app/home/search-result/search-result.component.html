@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="col-md-5 lists">
+    <h1>Resultado da busca</h1>
+
+        <nb-accordion>
+          <nb-accordion-item #item *ngFor="let planet of planets; let i = index" [expanded]="i == 0">
+            <nb-accordion-item-header>
+              {{ planet.nome }}
+            </nb-accordion-item-header>
+            <nb-accordion-item-body>
+              <div class="row">
+                <div class="col-10">
+                  <p>Clima: {{ planet.clima }}</p>
+                  <p>Terreno: {{ planet.terreno }}</p>
+                  <p>Filmes: {{ planet.filmes }}</p>
+                </div>
+                <div class="col-2">
+                  <a class="ng2-smart-action edit" (click)="editPlanet(planet.id)">
+                    <nb-icon class="edit" icon="edit"></nb-icon>
+                  </a>
+                  <a class="ng2-smart-action" (click)="deletePlanet(planet.id)">
+                    <nb-icon class="delete" icon="trash"></nb-icon>
+                  </a>
+                </div>
+              </div>
+            </nb-accordion-item-body>
+          </nb-accordion-item>
+        </nb-accordion>
+
+  
+    <div *ngIf="!planets">
+      Nenhum planeta encontrado
+    </div>
+  
+  </div>
+</div>
