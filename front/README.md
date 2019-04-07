@@ -9,8 +9,10 @@ Instruções
 - Alterar o arquivo: src -> app -> app.config.ts. Alterar a variável 'URL_BASE_REST' com a url da API.
 - Para rodar localmente:
     -   Por linha de comando, ir até a pasta do projeto e rodar o código:
-            1. npm install
-            2. ng serve -o
+            ```
+            npm install
+            ng serve -o
+            ```
 - Para gerar a versão para produção:
     - Ir até: src -> index.html, e alterar a tag:
     ```

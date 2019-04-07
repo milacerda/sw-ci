@@ -1,4 +1,4 @@
-## Star Wars API
+# Star Wars API
 ## CodeIgniter 3.1.10
 
 @author: Camila Lacerda
